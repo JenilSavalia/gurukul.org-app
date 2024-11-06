@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Quadrant Cards</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<style>
+    .card {
+        border-radius: .7rem;
+        background-color: rgb(171 184 195 / 14%);
+        box-shadow: 2px 2px 2px 2px black;
+        box-shadow: 4px 4px 17px -12px black;
+    }
+
+    p {
+        padding: 0px 20px;
+        color: dimgrey;
+    }
+</style>
+
+<body>
+    <div class="container" style="height:100vh" id="container-one">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="form" method="post" style="padding: 35px;background: #dfe4ea;">
+                    <h2 class="display-4" style="font-weight:400;color: #cc0000; margin-bottom: 35px; font-size:60px">
+                        Student Apps</h2>
+                    <div class="form-group">
+                        <p>
+                            <i class="bi bi-person-fill"></i>
+                            <input type="text" class="form-control" name="exampleInputEmail1" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Member ID" required>
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <i class="bi bi-person-fill"></i>
+                            <select class="custom-select" style="width: 100%;border: none;padding: 14px 30px 14px 40px;font-size: 19px;font-style: normal;
+                        font-weight: 550;line-height: 135%;font-family: var(--font-title);color: #000;"
+                                aria-label="Default select example" id="selectOption" name="selectedBranch" required>
+                                <option selected>My Branch</option>
+                                <option value="HYDDAY">HYD-DAY</option>
+                                <option value="HYDHOS">HYD-HST</option>
+                                <option value="BLR">BANGALORE</option>
+                                <option value="GLB">GULBARGA</option>
+                                <option value="RPR">RAIPUR</option>
+                                <option value="BDR">BIDAR</option>
+                                <option value="JDC">JA DCHERLA</option>
+                                <option value="SLP">SOLAPUR</option>
+                                <option value="VJW">VIJAYAWADA</option>
+                                <option value="NGP">NAGPUR</option>
+                                <option value="NVM">NAVI MUMBAI</option>
+                                <option value="VDN">VIDYANAGAR</option>
+                                <option value="NTL">NTPC LARA</option>
+                                <option value="AMDENG">AMD-ENG</option>
+                                <option value="AMDGUJ">AMD-GUJ</option>
+                                <option value="MYS">MYSORE</option>
+                                <option value="SBD">SECUNDERABAD</option>
+                                <option value="SYPT">SURYAPET</option>
+                            </select>
+                        </p>
+                    </div>
+                    <button type="submit" name="submitform" class="btn btn-danger btn-lg">Know My gStatus Score</button>
+                </form>
+                <hr>
+                <section id="block_content">
+                    <blockquote class="blockstyle" id="quote">
+                        <span class="triangle"></span>The Kadence Importer allows you to easily import all including
+                        images,
+                        from any of our Kadence themes demos. When you install a Kadence theme, the importer will
+                        automatically see what theme you are using and give you options to import anyone of those themes
+                    </blockquote>
+                </section>
+                <br>
+                <div class="mt-4" style="line-height: 1.6;">
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>Make sure you enter the correct Student Member ID.</li>
+                        <li>Select the branch where you are enrolled.</li>
+                        <li>Click the "Know My gStatus" button to view your Points.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="container-two">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card ">
+                    <div class="card-body text-center">
+                        <h2 class="card-title mb-4 mt-3"> <img
+                                src="https://gurukul.org/wp-content/uploads/2023/08/vidya-modern-knowldge-icon.svg"
+                                width="40" height="40" class="d-inline-block align-top mr-3" alt="">PA Result</h2>
+                        <p class="card-text">A Periodic Assessment is an opportunity for learners to draw on a range of
+                            learning that has taken place over an extended period of time</p>
+                        <a id="pa-result-btn" class="btn btn-primary">Know PA Result</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="card-title mb-4 mt-3"> <img
+                                src="https://gurukul.org/wp-content/uploads/2023/08/self-assesments-icon.svg" width="40"
+                                height="40" class="d-inline-block align-top mr-3" alt="">Weekly Test</h2>
+                        <p class="card-text">Weekly tests are a great way to determine gaps in students' knowledge base.
+                            Teachers can use these tests to pinpoint areas of weakness and provide extra help where
+                            needed</p>
+                        <a id="weekly-test-btn" class="btn btn-primary">Know Weekely Result</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card color-success">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-3"><img
+                                src="https://gurukul.org/wp-content/uploads/2022/10/Group-830.png" width="175 alt=""></h5>
+                        <p class=" card-text">gStatus is a unique, comprehensive assessment program by Gurukul,
+                            evaluating students in academics, discipline, punctuality, cleanliness, adherence to dress
+                            code, sports prowess, and overall behaviour, aiming for their all-round
+                            development.Recognized achievers receive accolades, including certificates and trophies
+                            motivating excellence</p>
+                            <a id="gstatus-btn" class="btn btn-primary">Know gStatus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-3"><img
+                                src="https://gurukul.org/wp-content/uploads/2022/10/logo-gbrillence-1-1.png"
+                                width="250 alt=""></h5>
+                        <p class=" card-text">GBrilliance, crafted by Gurukul, is a distinct foundation program aimed
+                            at students from class 5 and above, preparing them for competitive exams like JEE and NEET.
+                            Through specialized study materials and biweekly online exams, it equips students with the
+                            skills and knowledge needed to excel in their academic and professional futures</p>
+                            <a id="gbrilliance-btn" class="btn btn-primary">Know gBrilliance</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></s >
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

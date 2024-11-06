@@ -1,0 +1,121 @@
+/* Fonts      =======================================================================================>>>>> */
+
+@font-face {
+    font-family: 'Zapt';
+    /* Name your font family */
+    src: url('Zapf\ Humanist\ 601\ Regular.otf');
+    /* Locate the .ttf file within your directory*/
+
+
+}
+
+@font-face {
+    font-family: 'Zapt_bold';
+    /* Name your font family */
+    src: url('Zapf\ Humanist\ 601\ Bold.otf');
+    /* Locate the .ttf file within your directory*/
+
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu {
+    
+    height: 650px;
+    width: 1300px;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 20px -15px black;
+    background-color: rgb(180 192 201 / 24%);
+    padding: 35px;
+    width: 369px;
+    height: 206px;
+    border-radius: 20px;
+    margin: 16px;
+}
+
+.card_1 img {
+    width: 43px;
+}
+
+.card_1 p {
+    text-align: center;
+    padding: 7px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777777;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+
+}
+
+#title span {
+    margin-left: 17px;
+    font-family: 'Zapt_bold';
+    color: #4E4848;
+}
+
+.btn {
+    background-color: #CC0000;
+    padding: 11px 27px;
+    text-align: center;
+
+    border-radius: 7px;
+    color: white;
+    width: 218px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+
+/* gbrill and gstatus cards    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++>>>>>>>>>>>>>>>>>> */
+
+
+#logos_1{
+    width: 200px;
+}
+#logos_2{
+    width: 140px;
+}
+
+
+.btn_1 {
+    background-color: #C1C1C1;
+    padding: 11px 27px;
+    text-align: center;
+
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    width: 218px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+
+}

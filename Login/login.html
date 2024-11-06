@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gResults Login</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <script src="login.js"></script>
+    <div id="container">
+        <div id="inner_container">
+            <img id="user" src="user.png" alt="User login">
+
+            <img id="logo" src="gResults_logo.png" alt="Welcome to gResults">
+            <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Login</div>
+
+
+
+            <form name="credentials">
+                <div>
+                    <label for="MID"></label>
+                    <input type="text" id="ID" placeholder="MID" name="memberid">
+                </div>
+
+                <div>
+                    <label for="Branch"></label>
+                    <select name="Branch" id="data_box">
+                        <option checked value="select">Select Branch*</option>
+                        <option value="HYD-HST">HYD-HST</option>
+                        <option value="HYD-DAY">HYD-DAY</option>
+                        <option value="BLR">BLR</option>
+                        <option value="MUM">MUM</option>
+                    </select>
+                </div>
+
+                <div>
+                    <a class="btn" href="#" onclick="loginfunction()">Login</a>
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
+
+
+    <section>
+
+        
+    </section>
+</body>
+
+</html>

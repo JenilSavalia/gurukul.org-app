@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        function loadScript(url, callback) {
+            // Create a new <script> element
+            const script = document.createElement("script");
+            script.src = url;
+            script.type = "text/javascript";
+            script.async = true;
+
+            // If a callback is provided, call it once the script loads
+            script.onload = function () {
+                if (callback) callback();
+            };
+
+            // Append the script to the <head> or <body> of the document
+            document.head.appendChild(script);
+        }
+
+        // Usage example
+        loadScript("https://example.com/your-script.js", function () {
+            console.log("Script loaded successfully!");
+            // Any other code that depends on the loaded script can go here
+        });
+
+    </script>
+
+</body>
+
+</html>

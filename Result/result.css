@@ -1,0 +1,393 @@
+/* Fonts      =======================================================================================>>>>> */
+
+@font-face {
+    font-family: 'Zapt';
+    /* Name your font family */
+    src: url('Zapf\ Humanist\ 601\ Regular.otf');
+    /* Locate the .ttf file within your directory*/
+
+
+}
+
+@font-face {
+    font-family: 'Zapt_bold';
+    /* Name your font family */
+    src: url('Zapf\ Humanist\ 601\ Bold.otf');
+    /* Locate the .ttf file within your directory*/
+
+}
+
+/* DISPLAY_PAGE */
+
+#DISPLAY_PAGE {
+    display: none;
+}
+
+/* INFOGRAPHICS */
+
+.info {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.percentage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+/* ------ LOGIN PAGE CSS ------------- */
+
+
+
+#inner_container {
+    background-color: rgba(171, 184, 195, 0.3);
+    width: 382px;
+    height: 583px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: -3px 3px 22px -12px black;
+
+}
+#inner_container:hover{
+    box-shadow:  2px 3px 20px -10px black;
+    transition: 0.7s
+}
+
+#logo {
+    width: 13rem;
+}
+
+
+#user {
+    width: 8rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    margin: 11px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-right: 127px;
+    border: 2px solid;
+}
+
+form select {
+    margin: 11px;
+    padding: 9px;
+    padding-right: 186px;
+}
+
+
+.data_box {
+    border: 1px solid gray;
+    border-radius: 8px;
+    
+}
+
+.btn {
+    background-color: #CC0000;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 288px;
+    display: block;
+    margin-left: 11px;
+    margin-top: 10.5px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Result Container ---------- CSS Design------------------------------>>>>>>>>>>>>>> */
+
+.result_container {
+    background-color: rgba(223, 223, 223, 0.3);
+    width: 41rem;
+    height: 40rem;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    border-radius: 15px;
+    box-shadow: -3px 3px 22px -12px black;
+}
+
+/* Merks units subject wise  ---------- CSS Design------------------------------>>>>>>>>>>>>>> */
+.marks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40rem;
+}
+
+
+
+.grade_box {
+    background-color: #CC0000;
+    border: 3px solid white;
+    width: 31rem;
+    margin: 12px 66px;
+    padding: 6px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.grade_box img {
+    width: 30px;
+    margin: 4px;
+    margin-left: 20px;
+
+}
+
+.subject {
+    color: white;
+    font-size: 21px;
+    font-family: 'zapt_bold';
+    margin-left: 25px;
+
+}
+
+/* Grade Entry Css ____________________+++++++++++++++++++++++++++__>>> EX: 80/100 */
+.grade {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 68px;
+    left: 455px;
+    color: white;
+    font-family: 'zapt_bold';
+    font-size: 25px;
+}
+
+.grade span {
+    padding-bottom: 48.5px;
+
+}
+
+
+
+/* Inforgaphics pass and total marks  Sectionn =========================================>>>> */
+
+.display_container {
+    background-color: rgba(223, 223, 223, 0.3);
+    width: 27rem;
+    height: 40rem;
+    position: absolute;
+    top: 250px;
+    left: 737px;
+    border-radius: 15px;
+    box-shadow: -3px 3px 22px -12px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.pass {
+    background-color: rgb(209 209 209 / 20%);
+    color: #CC0000;
+    font-family: 'Zapt_bold';
+    font-size: 1.5rem;
+    padding: 5px 70px 5px 70px;
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.total_marks {
+    background-color: rgb(209 209 209 / 20%);
+    color: #CC0000;
+    font-family: 'Zapt_bold';
+    font-size: 2rem;
+    /* padding: 73px 115px 73px 115px; */
+    border-radius: 9px;
+    height: 150px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.infograph {
+    background-color: rgb(209 209 209 / 20%);
+    color: #CC0000;
+    font-family: 'Zapt_bold';
+    font-size: 2rem;
+    /* padding: 73px 115px 73px 115px; */
+    border-radius: 9px;
+    height: 250px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    background-color: #CC0000;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 300px;
+    margin-top: 10.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: grabbing;
+}
+
+.download:hover{
+    background-color: #bb0505;
+}
+
+.btn {
+    background-color: #bdbdbd;
+    padding: 6px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+    font-family: 'zapt_bold';
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 26px;
+}
+
+
+/* Menu Selection ---------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.menu {
+    position: absolute;
+    top: 151px;
+    left: 62px;
+    /* border: 2px solid black; */
+    width: 1101px;
+    height: 75px;
+    background-color: #efefef87;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn_long {
+    background-color: #bdbdbd;
+    padding: 6px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 205px;
+    font-family: 'zapt_bold';
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 26px;
+}
+
+
+/* Pressed/active state style */
+
+
+
+.btn:hover {
+    background-color: #8b8b8b;
+}
+
+.btn:focus {
+    background-color: #CC0000;
+    outline: none;
+}
+
+.btn_long:hover {
+    background-color: #8b8b8b;
+}
+
+.btn_long:focus {
+    background-color: #CC0000;
+}
+
+
+/* _________________ Student Profile ______________________________________________________________>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 279px;
+    left: 1301px;
+    width: 392px;
+    height: 594px;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 250px;
+}
+
+.title {
+    background-color: #95959526;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    padding: 9px 29px 9px 29px;
+    border-radius: 8px;
+    font-family: 'Zapt_bold';
+    color: #5f5f5fe0;
+}
+
+
+.title img {
+    width: 23px;
+    margin-right: 11px;
+}
+
+
+.std_img img {
+    width: 150px;
+    margin-top: 20px;
+
+
+}
+
+.std_info {
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+}
+
+.std_info div {
+    padding: 6px;
+    font-family: 'zapt';
+    font-size: 1.3rem;
+}
+
+.mid {
+    color: #CC0000;
+    font-family: 'Zapt_bold';
+}

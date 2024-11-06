@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gResults | $[MID]</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+
+<body>
+
+    <script src="../index.js"></script>
+
+
+
+    <!-- LOGIN PAGE -->
+    <div id="LOGIN_PAGE">
+
+        <div id="inner_container">
+            <img id="user" src="/Login/user.png" alt="User login">
+
+            <img id="logo" class="data_box" src="/Login/gResults_logo.png" alt="Welcome to gResults">
+            <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Login</div>
+
+
+
+            <form name="credentials">
+                <div>
+                    <label for="MID"></label>
+                    <input type="text" id="ID" placeholder="MID" name="memberid">
+                </div>
+
+                <div>
+                    <label for="Branch"></label>
+                    <select name="Branch" class="data_box">
+                        <option checked value="select">Select Branch*</option>
+                        <option value="HYD-HST">HYD-HST</option>
+                        <option value="HYD-DAY">HYD-DAY</option>
+                        <option value="BLR">BLR</option>
+                        <option value="MUM">MUM</option>
+                    </select>
+                </div>
+
+                <div>
+                    <a class="download" href="#" onclick="loginfunction()">Login</a>
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
+
+    <!-- dislpay PaGE -->
+    <div id="DISPLAY_PAGE">
+        <div class="menu">
+            <a class="btn" id="PA_1" href="#" onclick="Click_PA_1()">PA 1</a>
+            <a class="btn" id="PA_2" href="#" onclick="Click_PA_2()">PA 2</a>
+            <a class="btn" id="PA_3" href="#" onclick="Click_PA_3()">PA 3</a>
+            <a class="btn" id="PA_4" href="#" onclick="Click_PA_4()">PA 4</a>
+            <a class="btn_long" id="Annual_result" href="#" onclick="Click_Annual()">Annual Report</a>
+        </div>
+        <div class="result_container">
+            <div class="marks">
+
+                <div class="grade_box">
+                    <img src="english.png" alt="ENG">
+                    <span class="subject">English</span>
+
+                </div>
+                <div class="grade_box">
+                    <img src="maths.png" alt="ENG">
+                    <span class="subject">Mathematics</span>
+                </div>
+                <div class="grade_box">
+                    <img src="atom.png" alt="ENG">
+                    <span class="subject">Science</span>
+                </div>
+                <div class="grade_box">
+                    <img src="social-studies.png" alt="ENG">
+                    <span class="subject">Social Science</span>
+                </div>
+                <div class="grade_box">
+                    <img src="letter-a.png" alt="ENG">
+                    <span class="subject">Hindi</span>
+
+                </div>
+                <div class="grade_box">
+                    <img src="scripture_6315163.png" alt="ENG">
+                    <span class="subject">Sanskrit</span>
+                </div>
+                <div class="grade_box">
+                    <img src="software-application.png" alt="ENG">
+                    <span class="subject">Information Technology</span>
+                </div>
+            </div>
+
+            <div class="grade">
+                <span id="English">80/100</span>
+                <span id="Mathematics">65/100</span>
+                <span id="Science">81/100</span>
+                <span id="Social Science">84/100</span>
+                <span id="Hindi">90/100</span>
+                <span id="Sanskrit">99/100</span>
+                <span id="Information Technology">55/100</span>
+
+            </div>
+        </div>
+
+        <div class="display_container">
+            <div class="pass">PASS</div>
+            <div class="total_marks">552/600</div>
+
+            <div class="infograph">
+                <div class="info">
+                    <canvas id="gauge"></canvas>
+                    <div class="percentage-text" id="percentageText">0%</div>
+                </div>
+            </div>
+
+
+            <a class="download" href="file:///D:/02%20CodingGita/Self_Learnt/Frontend%20Projects/01%20Results%20(gurukul.org)/Result/dashboard.html">View Dashboard</a>
+        </div>
+        <div class="profile">
+            <div class="logo"><img src="/Login/gResults_logo.png" alt="gResults"></div>
+            <div class="title"><img src="profile.png" alt="">Student Details</div>
+            <div class="std_img"><img src="profile.png" alt=""></div>
+            <div class="std_info">
+                <div id="mid">AB9642</div>
+                <div id="name">Lorem</div>
+                <div id="branch">HYD-HST</div>
+                <div id="section">12 Aqua</div>
+                <div id="contact">7202035033</div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

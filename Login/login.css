@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#inner_container {
+    background-color: rgba(171, 184, 195, 0.3);
+    width: 382px;
+    height: 583px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: -3px 3px 22px -12px black;
+
+}
+#inner_container:hover{
+    box-shadow:  2px 3px 20px -10px black;
+    transition: 0.7s
+}
+
+#logo {
+    width: 13rem;
+}
+
+
+#user {
+    width: 8rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#container {
+    background-color: rgb(255, 255, 255);
+    height: 57rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Form CSS Design ____________________________________________________________________________>>>>>>>  */
+form {
+    margin-top: 20px;
+}
+
+form input {
+    margin: 11px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-right: 127px;
+    border: 2px solid;
+}
+
+form select {
+    margin: 11px;
+    padding: 9px;
+    padding-right: 186px;
+}
+
+
+#data_box {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #CC0000;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 288px;
+    display: block;
+    margin-left: 11px;
+    margin-top: 10.5px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
